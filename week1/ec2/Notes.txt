@@ -1,0 +1,14 @@
+EC2:
+On demand instances. short workload, predictable pricing
+
+Reserved instances. long workloads >= 1 yr
+
+Convertible Reserved instances: long workloads with flexible instances
+
+Scheduled Reserved Instances: launch within time window you reserve
+
+Spot Instance: kind of bidding for short workloads, cheap, can lose instance
+
+Dedicated Instance: no other customer will share the hardware
+
+Dedicated Host: book entire physical server
