@@ -12,3 +12,25 @@ Spot Instance: kind of bidding for short workloads, cheap, can lose instance
 Dedicated Instance: no other customer will share the hardware
 
 Dedicated Host: book entire physical server
+
+IAM:
+    IAM is a global service, across all regions
+
+AMI:
+    customise at runtime using EC2 User Data.( sample script ec2-user-data-sample.sh)
+    Create Our Image using Custom AMI. e.g.
+        Pre installed packages
+        Faster boot time
+        Machine come with some enterprise s/w
+        Active director etc.
+
+EC2 Instance:
+    RAM - type, amount, generation
+    CPU - type,  make, generation, cores
+    I/O  - disk performance, ECS optimisations
+    Network - network latency, bandwidth
+    GPU
+
+
+ While ssh into linux instance, we are getting permission error. reason the .pem key was missing chmod 0400 permissions.
+ Network time during ssh was due to misconfigured security groups.
