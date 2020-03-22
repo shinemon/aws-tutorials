@@ -17,6 +17,7 @@ IAM:
     IAM is a global service, across all regions
 
 AMI:
+    AMI created for a region can only be seen in that region.
     customise at runtime using EC2 User Data.( sample script ec2-user-data-sample.sh)
     Create Our Image using Custom AMI. e.g.
         Pre installed packages
@@ -34,3 +35,6 @@ EC2 Instance:
 
  While ssh into linux instance, we are getting permission error. reason the .pem key was missing chmod 0400 permissions.
  Network time during ssh was due to misconfigured security groups.
+
+
+Security group references, IP/CIDR . note doesnt reference dns name.
