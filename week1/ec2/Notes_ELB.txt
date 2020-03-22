@@ -1,0 +1,16 @@
+ELB:
+    EC2 Load Balancer
+    its  a managed load balancer, and AWS guarantees that it wil be working. including upgrade, maintenance etc.
+
+Types:
+    Classic LB (v1) -- old
+    Application LB (v2)
+    Network LB (v2)
+
+    healthChecks.
+    ALB supports - http, https, websockets
+        true ip of client is inserted in the header X-Forwarded-For (App server dont see the ip of client directly)
+    NLB:
+        forward tcp traffic to the instances
+        handles millions of req per sec
+        mostly used for extreme performance
