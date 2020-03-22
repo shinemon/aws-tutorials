@@ -14,3 +14,7 @@ Types:
         forward tcp traffic to the instances
         handles millions of req per sec
         mostly used for extreme performance
+
+
+ Auto Scaling:
+    Auto Scaling Group add n remove ec2 instances based on load
