@@ -18,3 +18,13 @@ Types:
 
  Auto Scaling:
     Auto Scaling Group add n remove ec2 instances based on load
+
+
+EBS Volume: [ Elastic Block Store]
+    when an ec2 machine is terminated it loses it root volume.
+    EBS solved and stores data elsewhere in network drive, and attache to instance when they running.
+    gp2- ssd
+    IO1- ssd
+    st1- hdd
+
+    ebs is locked at AZ level.
