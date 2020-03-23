@@ -1,1 +1,17 @@
 Route 53:
+    Managed DNS ( domain name system)
+    Collection of rules and record which helps clients understand how to reach a server through urls
+
+    Common Record in AWS are:
+        A: URL to IPv4
+        AAAA: URL to IPv6
+        CNAME:  URL to URL
+        Alias: URL to AWS Resource
+
+ A Record example:
+    WebBrowser > requests http://myapp.myDomain.com  > ROUTE 53
+    ROUTE53 > (knows the ipv4 of that URL) sends back ip say 32.55.97.85 > WebBrowser
+    WebBrowser httpReq-> <-httpRes Application Server (IPv4 32.55.97.85)
+
+Route53 works with both public domain, and private domain (VPCs)
+
