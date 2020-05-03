@@ -11,3 +11,30 @@ object(file) have key.  e.x. <my-bucket>/my_file.txt
 
 maz size is 5TB
 if more than that, then use multiPart upload
+
+
+ENCRYPTION:
+1. SSE-S3
+2. SSE-KMS
+3. SSE-C
+4. Client Side
+
+1. SSE-S3
+    handled by AWS & its AES 256
+    must set header "x-amz-server-side-encryption":"AES-256"
+    objects encrypted at server side
+
+2. SSE-KMS
+    handled and managed by KMS
+     must set header "x-amz-server-side-encryption":"awskms"
+
+3. SSE-C
+    server side but key fully managed by customer
+    https must be used
+    encryption key provided in the header
+    aws will not store the key
+
+4. client side encryption
+    encryption done at client side. i,e before sending to s3 bucket. its encrypted
+
+
