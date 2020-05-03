@@ -1,0 +1,13 @@
+S3
+
+infinitely scaling storage. :)
+
+Bucket must have global unique name
+
+bucket are defined at region level.
+noUpperCase, no underscore, 3-63 char long, not n ip, must start with lowerCaseLetter or number
+
+object(file) have key.  e.x. <my-bucket>/my_file.txt
+
+maz size is 5TB
+if more than that, then use multiPart upload
