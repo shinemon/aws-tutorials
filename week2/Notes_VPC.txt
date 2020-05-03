@@ -1,0 +1,11 @@
+VPC - virtual private cloud
+    within a region you can create vpc. each vpc contains subnets network
+    each subnet is mapped to an AZ.
+    it has private n public subnet.
+
+public subnet - lb, auth layer, static websites.
+private subnet - web app servers, DB
+
+user -> public subnet (elastc lb) -> private subnet -> db , rds, cache etc
+|
+route53

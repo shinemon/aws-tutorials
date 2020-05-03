@@ -2,3 +2,4 @@
 Redis -in memory key-value store. survives reboots. multiAZ n automatic fail over.
 
 Meccached - in memory object store. doesn survive reboots.
+
