@@ -1,0 +1,12 @@
+
+
+AWS Global Infrastructure
+    AWS Regions
+    AWS Availability Zones
+    AWS Data Centers
+    AWS Edge Locations/Point of presence
+
+    https://infrastructure.aws
+
+
+AWS has regions all around the world
