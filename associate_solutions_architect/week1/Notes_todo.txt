@@ -9,4 +9,26 @@ AWS Global Infrastructure
     https://infrastructure.aws
 
 
-AWS has regions all around the world
+AWS has regions all around the world.  its a cluster of data centers
+
+Each region has many availability zones
+    min 2, max 6, usually 3
+
+each AZ is one or more Data Center
+
++++++++++++++++++++
+
+IAM  -- Identity and Access Management
+    ROOT user is created by default
+    User are people within a org, and can be grouped
+    Groups only contain user, not other grp.
+    User can be or can not be part of grp
+    Same user can be part of multiple grp
+ IAM PErmissions
+    User or Group can be assigned JSON document called policies
+
+
+    IAM is global service, not specific to aws region
+
+
+
