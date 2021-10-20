@@ -31,4 +31,8 @@ IAM  -- Identity and Access Management
     IAM is global service, not specific to aws region
 
 
+    IAM password policy, u can set different password roles
+    MFA -
+
+
 
