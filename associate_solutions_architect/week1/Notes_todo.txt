@@ -34,5 +34,12 @@ IAM  -- Identity and Access Management
     IAM password policy, u can set different password roles
     MFA -
 
+How can we access AWS
+    aws console
+    aws cli
+    aws sdk
+
+ A statement in an IAM Policy consists of Sid, Effect, Principal, Action, Resource, and Condition. Version is part of the IAM Policy itself, not the statement.
+
 
 
