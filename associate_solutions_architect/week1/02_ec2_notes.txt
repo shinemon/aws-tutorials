@@ -21,3 +21,22 @@ EC2 Placement Groups
                 scales 100s of ec2 instances per group (kafka, hadoop, casandra)
 
 
+EBS
+    Elastic Block store is like a network drive (not attached physical drive) which you can attach to your instance while they run
+
+it allows to persist data even after termination
+
+
+AMI
+    amazon machine image
+    ami are customization of ec2 instance
+
+
+EC2 Instance Store
+    EBS volumes are network drives with good but 'limited' performance.
+    Hence if we need high performance hardware disk, use ec2InstanceStore
+    its better i/o, good throughput
+
+    caveat: if we terminate/stop  the ec2 instance then the storage is lost.
+    Good for buffer, cache, temporary data etc.
+
