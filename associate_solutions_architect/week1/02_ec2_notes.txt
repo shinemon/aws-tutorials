@@ -10,3 +10,14 @@ Scaling the services using an auto-scaling group (ASG)
 
 EC2 on demand, spot request, dedicated host
 
+
+
+EC2 Placement Groups
+    control over ec2 instance  placement strategy
+
+    Cluster - cluster instances into a low latency group in a single Availability Zone [High availability, but High Risk]
+    Spread - spreads instances across underlying hardware (mx 7 per group per AZ) - critical applications
+    Partition - spreads instances across many different partition (rely on different set of racks) within an AZ.
+                scales 100s of ec2 instances per group (kafka, hadoop, casandra)
+
+
